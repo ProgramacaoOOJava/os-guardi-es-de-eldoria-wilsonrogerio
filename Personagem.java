@@ -1,4 +1,4 @@
-public class Personagem {
+public abstract class Personagem {
     String nome;
     String classe;
     int nivel;
@@ -24,5 +24,8 @@ public class Personagem {
         System.out.println("Poder Base: " + this.poderBase); 
 
     }
+
+    // Classe abstrata para sobrescrita
+  public abstract void usarHabilidadeEspecial();
 }
 
