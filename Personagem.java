@@ -13,7 +13,18 @@ public abstract class Personagem {
         this.poderBase = poderBase;
 
     }
+    //Getters 
+    public String getNome() {
+    return nome;
+    }
 
+    public int getNivel() {
+    return nivel;
+    }
+
+    public double getPoderBase() {
+    return poderBase;
+    }
     public void exibirStatus() {
         //Saida dos status formatada
         System.out.println("--- Status do Personagem ---");
